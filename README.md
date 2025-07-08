@@ -20,9 +20,11 @@ A half adder is a combinational logic circuit that adds two single-bit binary nu
 | 1 | 0 |  1  |   0    |
 | 1 | 1 |  0  |   1    |
 
-## ▶ How to Simulate (Using Icarus Verilog)
+## ▶ How to Simulate 
+using EDA Playground
 
-1. Open terminal and run:
-   ```bash
-   iverilog -o half_adder_sim half_adder.v half_adder_tb.v
-   vvp half_adder_sim
+## 📊 Simulation Waveform
+
+Below is the EPWave screenshot from the half adder simulation:
+
+![Waveform](waveform.png)
